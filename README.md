@@ -1,8 +1,8 @@
-# Clima · Previsão do Tempo 🌤️
+# Clima · Previsão do Tempo 
 
 Um aplicativo moderno de previsão do tempo desenvolvido com Next.js, Tailwind CSS e Capacitor, fornecendo informações climáticas em tempo real para qualquer cidade do mundo.
 
-## ✨ Recursos
+##  Recursos
 
 - **Previsão em Tempo Real:** Dados meteorológicos precisos alimentados pela API [Open-Meteo](https://open-meteo.com/).
 - **Previsão de 5 Dias:** Acompanhe a temperatura, condições climáticas e muito mais para a próxima semana.
@@ -11,7 +11,7 @@ Um aplicativo moderno de previsão do tempo desenvolvido com Next.js, Tailwind C
 - **Temas Dinâmicos:** Suporte integrado a Modo Claro, Modo Escuro e Sincronização com o Sistema.
 - **Multiplataforma:** Roda tanto como um Web App (PWA) moderno quanto como um aplicativo nativo para Android.
 
-## 🚀 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - [Next.js](https://nextjs.org/) (App Router & Exportação Estática)
 - [React](https://react.dev/)
@@ -19,7 +19,7 @@ Um aplicativo moderno de previsão do tempo desenvolvido com Next.js, Tailwind C
 - [Shadcn UI](https://ui.shadcn.com/)
 - [Capacitor](https://capacitorjs.com/) (Para compilação do APK nativo)
 
-## 📦 Como rodar o projeto
+##  Como rodar o projeto
 
 ### Pré-requisitos
 Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em seu sistema. Para rodar a build nativa do Android, o [Android Studio](https://developer.android.com/studio) e o Java SDK são necessários.
@@ -51,5 +51,5 @@ npx cap open android
 ```
 *(Para compilar diretamente pelo terminal sem abrir o Android Studio, acesse a pasta `android` e execute `.\gradlew assembleDebug` no Windows).*
 
-## 🤝 Créditos
+##  Créditos
 Os dados climáticos deste aplicativo são fornecidos gratuitamente pela [Open-Meteo](https://open-meteo.com/).
